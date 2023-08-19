@@ -2,7 +2,6 @@ import React from 'react';
 
 function PopupWithForm({isOpen, onClose, name, title, children, submitForm, buttonName}) {
   return (
-    <>
       <div className={`popup popup_type-${name} ${isOpen && "popup_opened"}`}>
         <div className="popup__container">
           <button className="popup__button-close" type="button" aria-label="Закрыть окно" onClick={onClose}/>
@@ -15,7 +14,6 @@ function PopupWithForm({isOpen, onClose, name, title, children, submitForm, butt
           </div>
         </div>
       </div>
-    </>
   );
 }
 

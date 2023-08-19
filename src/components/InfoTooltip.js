@@ -4,7 +4,6 @@ import error from "../images/error.png"
 
 function InfoTooltip({ isOpen, onClose, isRegSuccess, regFailed, regSuccess }) {
     return(
-      <>
         <div className={`popup ${isOpen && 'popup_opened'}`}>
           <div className="popup__container popup__container_auth">
             <button type="button"
@@ -20,7 +19,6 @@ function InfoTooltip({ isOpen, onClose, isRegSuccess, regFailed, regSuccess }) {
             </p>
           </div>
         </div>
-      </>
     );
   }
   
