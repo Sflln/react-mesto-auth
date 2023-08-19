@@ -10,13 +10,7 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar }) {
     avatarRef.current.value = '';
   }, [isOpen])
 
-  // useEffect(() => {
-  //   setAvatar(currentUser.avatar);
-  // }, [currentUser]);
 
-  // function handleChangeAvatar(event) {
-  //   setAvatar(event.target.value);
-  // }
 
   //Обработчик сабмита формы 
   function handleSubmit(event) {
